@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="none">
+ 	<test name="FlipkartTest">
+ 		<parameter name="browser" value= "chrome" />
+ 		<classes>
+ 			<class name="Flipkart_Tests.FlipkartTest" />
+ 		</classes>
+ 	</test>
+</suite>
